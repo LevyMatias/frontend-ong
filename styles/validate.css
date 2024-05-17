@@ -1,0 +1,9 @@
+
+.span__required {
+    display: none;
+    color: red;
+}
+
+.span__required.visible {
+    display: block;
+}

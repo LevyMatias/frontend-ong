@@ -1,0 +1,51 @@
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 500px;
+}
+
+.container-img img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.container-img-text {
+    position: absolute;
+    font-size: 28px;
+}
+
+.button {
+    background-color: rgb(71, 71, 251);
+    border-radius: 10px;
+    color: white;
+    padding: .55rem 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button .cadastrar {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width: 552px) {
+    header, header nav .container-list{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 770px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+}
